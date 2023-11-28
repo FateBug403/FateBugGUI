@@ -1,2 +1,2 @@
 # FateBugGUI
-自己写的一点GUI工具
+此项目用于自己偶尔写点GUI功能，项目基于wails，目前实现的有afrog的poc的搜索查看功能
