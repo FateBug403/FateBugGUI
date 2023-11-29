@@ -1,4 +1,4 @@
 /*! 
  Build based on gin-vue-admin 
- Time : 1700979371000 */
+ Time : 1701258587000 */
 import{H as e,t as a,E as s,b as t,o,s as r,S as n,y as c,j as i,a as l}from"./087AC4D233B64EB0yaml.js";import{p,$ as d,a0 as f,v as u,w as v}from"./087AC4D233B64EB0index.js";import{_ as m}from"./087AC4D233B64EB0_plugin-vue_export-helper.js";const x=m(p({name:"pocDetails",props:{fatherPocString:{type:Object,default:{context:""}}},setup(p){const m=p,x=d(),y=d();return f((()=>{(()=>{void 0!==y.value&&y.value.destroy();const p=e.define([{tag:a.keyword,color:"#3fba2c"}]),d=s.create({doc:m.fatherPocString.context,extensions:[t,o,r(p),n.define(c),i()]});x.value&&(y.value=new l({state:d,parent:x.value}))})()})),(e,a)=>(u(),v("div",{ref_key:"editorRef",ref:x,class:"editor-main"},null,512))}}),[["__scopeId","data-v-6b32c944"]]);export{x as default};

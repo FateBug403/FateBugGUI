@@ -6,6 +6,10 @@ export function GetAfrogList(arg1) {
   return window['go']['main']['App']['GetAfrogList'](arg1);
 }
 
+export function GetOrganization(arg1) {
+  return window['go']['main']['App']['GetOrganization'](arg1);
+}
+
 export function Greet(arg1) {
   return window['go']['main']['App']['Greet'](arg1);
 }

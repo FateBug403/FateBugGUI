@@ -1,4 +1,4 @@
 /*! 
  Build based on gin-vue-admin 
- Time : 1700979371000 */
+ Time : 1701258587000 */
 import{H as e,t as n,E as s,b as a,o as p,s as t,S as o,y as r,j as i,a as u}from"./087AC4D233B64EB0yaml.js";import{p as d,$ as f,a0 as h,v as l,w as v}from"./087AC4D233B64EB0index.js";import{_ as m}from"./087AC4D233B64EB0_plugin-vue_export-helper.js";const c=m(d({__name:"discover",setup(d){const m=f(),c=f();return h((()=>{(()=>{void 0!==c.value&&c.value.destroy();const d=e.define([{tag:n.keyword,color:"#3fba2c"}]),f=s.create({doc:'id: brute\n\ninfo:\n  name: Brute Test\n  author: zan8in\n  severity: info\n\nrules:\n  r0:\n    brute:\n      path:\n        - "php.php"\n        - "info.php"\n        - "phpinfo.php"\n        - "infophp.php"\n        - "php_info.php"\n        - "test.php"\n    request:\n      method: GET\n      path: /"{{path}}"\n    expression: response.status == 500\nexpression: r0()',extensions:[a,p,t(d),o.define(r),i()]});m.value&&(c.value=new u({state:f,parent:m.value}))})()})),(e,n)=>(l(),v("div",{ref_key:"editorRef",ref:m,class:"editor-main"},null,512))}}),[["__scopeId","data-v-32ad1852"]]);export{c as default};

@@ -70,6 +70,29 @@ const routers = [
         "parameters": [],
         "btns": null
     },
+    {
+        "ID": 4,
+        "parentId": "0",
+        "path": "webManager",
+        "name": "webManager",
+        "hidden": false,
+        "component": "view/webManager/organization.vue",
+        "sort": 5,
+        "meta": {
+            "activeName": "",
+            "keepAlive": true,
+            "defaultMenu": false,
+            "title": "站点管理",
+            "icon": "tools",
+            "closeTab": false
+        },
+        "authoritys": null,
+        "menuBtn": null,
+        "menuId": "4",
+        "children": null,
+        "parameters": [],
+        "btns": null
+    },
 ]
 
 export default routers

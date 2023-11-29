@@ -5,6 +5,8 @@ import {common} from '../models';
 
 export function GetAfrogList(arg1:request.PocSearchInfo):Promise<common.H>;
 
+export function GetOrganization(arg1:request.PocSearchInfo):Promise<common.H>;
+
 export function Greet(arg1:string):Promise<string>;
 
 export function InfoCollectionStart():Promise<string>;
